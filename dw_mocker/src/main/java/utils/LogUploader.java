@@ -31,6 +31,7 @@ public class LogUploader {
             out.close();
             int code = conn.getResponseCode();
             System.out.println(code);
+            System.out.println("update dome");
         } catch (Exception e) {
             e.printStackTrace();
         }
